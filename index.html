@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shula Delivery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<header>
+    <div class="header">
+    <h1 style="box-shadow: 1em 8px 1em rgb(109, 109, 109); border-radius: 20px;">Shula's Backyard</h1>
+    <div class="header-links">
+          <a class="menu-link" href="#"> - Menu - </a>
+          <a class="about-link" href="#">  About  </a>
+          <a class="dropdown-item" href="#"> - Reservation - </a>
+      </div>
+</div>
+</header>
+<body>
+    <form
+  action="https://formspree.io/f/xyyokdzr"
+  method="POST">
+<div class="customer-info">
+    <label for="first-name">
+      <input class="input-txt" type="text" placeholder="First Name" style="text-align: center;"></label>
+      <br><br>
+      <label for="last-name">
+      <input class="input-txt" type="text" placeholder="Last Name" style="text-align: center;"></label>
+      <br><br>
+      <label for="phone">
+      <input class="input-txt" type="number" placeholder="Phone Number" style="text-align: center;"></label>
+      <br><br>
+      <label for="email">
+    <input class="input-txt" type="email" name="_replyto" placeholder="Your Email" style="text-align: center;"></label>
+    <br><br>
+    <label for="city-list">
+      <input type="list" list="city" class="input-txt" placeholder="City" style="text-align: center;">
+      <datalist class="city" id="city">
+          <option value="Ramat Gan" class="option-list">
+          <option value="Tel Aviv" class="option-list">
+          <option value="Givatayim" class="option-list">
+          <option value="Kiryat Ono" class="option-list">
+      </datalist></label>
+  <br><br>
+  <input type="date" name="birth-date" id="birth" class="input-txt" placeholder="Birth Date">
+  <br><br>
+  <Label for="privacy-policy">
+      <div class="input-txt" style="color: white; text-shadow: 0 2px 5px black;">
+  <input type="checkbox" name="privacy-policy" id="checkbox" class="input-txt">I have read and accept <a href="">privacy policy</a>.</Label><br>
+  <input type="checkbox" name="subscription" id="checkbox" class="input-txt">I want to get emails about future discounts.
+
+</div><br>
+  <!-- your other form fields go here -->
+  <label for="submit">
+  <button class="submit-btn" type="submit"> Submit </button></label>
+</form>
+<br><br>
+</div>
+  
+</div>
+</body>
+<footer>
+    <div class="footer">
+   - באייר 1, Ramat Gan, Israel - 
+      <div style="text-align: center;" class="popup" onclick="myFunction()"> Contact Us - 
+          <span class="popuptext" id="myPopup">
+              <h1> Contact Information </h1>
+              <p>Phone: <br> 052-5378033 <br><br> Email: <br> backyard@Shula.com</p></span>
+              </div>
+              
+              <script>
+                  // When the user clicks on div, open the popup
+                  function myFunction() {
+                    var popup = document.getElementById("myPopup");
+                    popup.classList.toggle("show");
+                  }
+                  </script>
+      <div style="text-align: center;" class="popup2" onclick="myFunction2()"> Acknowledgment - 
+          <span class="popuptext2" id="myPopup2">
+              <h1> Site Created By </h1>
+              <p> Matan Revivi </p></span>
+              </div>
+              
+              <script>
+                  // When the user clicks on div, open the popup
+                  function myFunction2() {
+                    var popup = document.getElementById("myPopup2");
+                    popup.classList.toggle("show");
+                  }
+                  </script>
+</footer>
+</html>
