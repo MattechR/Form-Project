@@ -2,7 +2,6 @@ body {
   background-image: url(IMG/shula.jpg);
   height: 100%;
   width: 100%;
-  height: 100%;
   background-repeat: no-repeat;
   overflow: scroll;
   background-size: cover;
@@ -25,6 +24,7 @@ body {
   padding: 2px;
   justify-content: space-around;
   justify-content: space-between;
+  width: device-width;
 }
 .menu-txt {
   font-size: 19pt;
