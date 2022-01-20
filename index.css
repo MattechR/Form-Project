@@ -1,4 +1,12 @@
-@media (max-width: 640px) {
+@-ms-viewport {
+  width: device-width ;
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@media (max-width: 320px) {
+
 }
 body {
   background-image: url(IMG/shula.jpg);
