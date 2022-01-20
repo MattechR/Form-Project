@@ -3,6 +3,7 @@
   width: 100%;
   }
 html {
+  overflow: scroll;
   overflow-x: hidden;
 }
 }
