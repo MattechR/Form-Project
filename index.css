@@ -8,9 +8,42 @@ body {
   background-size: cover;
   overflow-x: hidden;
   position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0 2px 5px black;
+  background-color: rgb(53, 53, 53);
+  justify-content: center;
+  
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+.menu-img {
+  width: 40%;
+  height: 80%;
+  border-radius: 20px;
+  padding: 2px;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.menu-txt {
+  font-size: 19pt;
+  letter-spacing: 2px;
+  text-align: center;
+  font: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  flex: content;
+}
+.menu-txt:hover {
+  position: relative;
+  opacity: 0.8;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  letter-spacing: 10px;
+  cursor: pointer;
+  readonly
 }
 .customer-info {
   text-align: center;
@@ -21,6 +54,34 @@ body {
   size: 20%;
   padding: 10px;
   inline-size: auto;
+}
+.appetizer-list {
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px black;
+  color: wheat;
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
+}
+.side-list {
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px black;
+  color: wheat;
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
+}
+.salad-list {
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px black;
+  color: wheat;
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
+}
+.main-list {
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px black;
+  color: wheat;
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
 }
 .input-txt {
   letter-spacing: 2px;
