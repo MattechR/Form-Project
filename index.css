@@ -1,7 +1,4 @@
 @media only screen and (max-width: 768px){
-  [class*="col-"]{
-  width: 100%;
-  }
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -137,6 +134,7 @@ body {
   cursor: pointer;
 }
 .footer {
+  max-width: 100%;
   text-align: center;
   border-radius: 20px;
   color: white;
@@ -154,6 +152,7 @@ body {
   letter-spacing: 5px;
 }
 .header {
+  max-width: 100%;
   letter-spacing: 5px;
   text-align: center;
   font-size: 22px;
