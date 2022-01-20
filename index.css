@@ -7,6 +7,7 @@ body {
   overflow: scroll;
   background-size: cover;
   overflow-x: hidden;
+  position: absolute;
 }
 ::-webkit-scrollbar {
   width: 0px;

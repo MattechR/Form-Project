@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shula Delivery</title>
+    <title>Shula's Backyard</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <header>
@@ -19,23 +19,23 @@
 </header>
 <body>
     <form
-  action="https://formspree.io/f/xyyokdzr"
+  action="https://formspree.io/f/xyyokdzr" target="_blank"
   method="POST">
 <div class="customer-info">
     <label for="first-name">
-      <input class="input-txt" type="text" placeholder="First Name" style="text-align: center;"></label>
+      <input class="input-txt" name="First Name" type="text" placeholder="First Name" style="text-align: center;"></label>
       <br><br>
       <label for="last-name">
-      <input class="input-txt" type="text" placeholder="Last Name" style="text-align: center;"></label>
+      <input class="input-txt" name="Last Name" type="text" placeholder="Last Name" style="text-align: center;"></label>
       <br><br>
       <label for="phone">
-      <input class="input-txt" type="number" placeholder="Phone Number" style="text-align: center;"></label>
+      <input class="input-txt" name="Phone Number" type="number" placeholder="Phone Number" style="text-align: center;"></label>
       <br><br>
       <label for="email">
-    <input class="input-txt" type="email" name="_replyto" placeholder="Your Email" style="text-align: center;"></label>
+    <input class="input-txt" type="email" name="Email" placeholder="Your Email" style="text-align: center;"></label>
     <br><br>
     <label for="city-list">
-      <input type="list" list="city" class="input-txt" placeholder="City" style="text-align: center;">
+      <input type="list" list="city" name="City" class="input-txt" placeholder="City" style="text-align: center;">
       <datalist class="city" id="city">
           <option value="Ramat Gan" class="option-list">
           <option value="Tel Aviv" class="option-list">
@@ -43,11 +43,11 @@
           <option value="Kiryat Ono" class="option-list">
       </datalist></label>
   <br><br>
-  <input type="date" name="birth-date" id="birth" class="input-txt" placeholder="Birth Date">
+  <input type="date" name="Birth Date" id="birth" class="input-txt" placeholder="Birth Date">
   <br><br>
   <Label for="privacy-policy">
       <div class="input-txt" style="color: white; text-shadow: 0 2px 5px black;">
-  <input type="checkbox" name="privacy-policy" id="checkbox" class="input-txt">I have read and accept <a href="">privacy policy</a>.</Label><br>
+  <input type="checkbox" name="privacy-policy" id="checkbox" class="input-txt">I have read and accept <a href="privacy-policy.html">privacy policy</a>.</Label><br>
   <input type="checkbox" name="subscription" id="checkbox" class="input-txt">I want to get emails about future discounts.
 
 </div><br>
