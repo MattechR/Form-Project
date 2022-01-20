@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   overflow: scroll;
   background-size: cover;
-  overflow-x: hidden;
+  overflow-x: none;
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 0 2px 5px black;
