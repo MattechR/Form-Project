@@ -6,13 +6,14 @@ body {
   background-repeat: no-repeat;
   overflow: scroll;
   background-size: cover;
-  overflow-x: none;
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 0 2px 5px black;
   background-color: rgb(53, 53, 53);
   justify-content: center;
   width: device-width;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 0px;
