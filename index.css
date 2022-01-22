@@ -12,13 +12,14 @@ body {
   background-size: cover;
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 0 2px 5px black;
-  background-color: rgb(53, 53, 53);
+  text-shadow: 0 5px 10px black;
   justify-content: center;
+  background-color: rgb(75, 75, 75);
   width: device-width;
   max-width: 100%;
   overflow: scroll;
   overflow-x: hidden;
+  margin-inline-end: 15px;
 }
 
 ::-webkit-scrollbar {
@@ -37,11 +38,12 @@ body {
   font-size: 19pt;
   letter-spacing: 2px;
   text-align: center;
-  font: bold;
+  font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
   padding: 10px;
-  color: black;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 2px 5px white;
   flex: content;
 }
 .menu-txt:hover {
@@ -49,6 +51,7 @@ body {
   opacity: 0.8;
   background-color: rgb(70, 70, 70);
   color: white;
+  text-shadow: 0 5px 10px black;
   letter-spacing: 10px;
   cursor: pointer;
   readonly
@@ -65,28 +68,28 @@ body {
 }
 .appetizer-list {
   letter-spacing: 2px;
-  text-shadow: 0 2px 5px black;
+  text-shadow: 0 5px 10px black;
   color: wheat;
   font-family: 'Caveat', cursive;
   font-size: 32px;
 }
 .side-list {
   letter-spacing: 2px;
-  text-shadow: 0 2px 5px black;
+  text-shadow: 0 5px 10px black;
   color: wheat;
   font-family: 'Caveat', cursive;
   font-size: 32px;
 }
 .salad-list {
   letter-spacing: 2px;
-  text-shadow: 0 2px 5px black;
+  text-shadow: 0 5px 10px black;
   color: wheat;
   font-family: 'Caveat', cursive;
   font-size: 32px;
 }
 .main-list {
   letter-spacing: 2px;
-  text-shadow: 0 2px 5px black;
+  text-shadow: 0 5px 10px black;
   color: wheat;
   font-family: 'Caveat', cursive;
   font-size: 32px;
@@ -134,6 +137,7 @@ body {
   cursor: pointer;
 }
 .footer {
+  margin-inline-end: 15px;
   max-width: 100%;
   text-align: center;
   border-radius: 20px;
@@ -199,15 +203,13 @@ a {
   background-color: rgb(121, 121, 121);
   color: #fff;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 100px;
   padding: 20px;
   position: absolute;
   letter-spacing: 5px;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  right: 50%;
-  margin-block-start: 500px;
+  right: 1px; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -267,14 +269,13 @@ a {
     background-color: rgb(121, 121, 121);
     color: #fff;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 100px;
     padding: 20px;
     position: absolute;
     letter-spacing: 5px;
     z-index: 1;
     bottom: 125%;
-    left: 50%;
-    right: 50%;
+    right: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
