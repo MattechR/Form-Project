@@ -19,7 +19,6 @@ body {
   max-width: 100%;
   overflow: scroll;
   overflow-x: hidden;
-  margin-inline-end: 15px;
 }
 
 ::-webkit-scrollbar {
@@ -137,7 +136,6 @@ body {
   cursor: pointer;
 }
 .footer {
-  margin-inline-end: 15px;
   max-width: 100%;
   text-align: center;
   border-radius: 20px;
