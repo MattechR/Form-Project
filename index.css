@@ -276,6 +276,7 @@ a {
     z-index: 1;
     bottom: 125%;
     right: 1px;
+    float: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
