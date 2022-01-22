@@ -206,8 +206,8 @@ a {
   position: absolute;
   letter-spacing: 5px;
   z-index: 1;
+  right: 1px;
   bottom: 125%;
-  right: 1px; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -272,9 +272,8 @@ a {
     position: absolute;
     letter-spacing: 5px;
     z-index: 1;
-    bottom: 125%;
     right: 1px;
-    float: right;
+    bottom: 125%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
